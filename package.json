@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "now -e CLIENT_ID=@client_id -e CLIENT_SECRET=client_secret -e VERIFICATION_TOKEN=@verification_token -e DATABASE_URL=https://shiftgig-ba-panadero.firebaseio.com"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,9 @@
   },
   "dependencies": {
     "botkit": "0.0.5",
+    "botkit-storage-firebase": "^1.0.0",
     "botkit-storage-mongo": "^1.0.2",
+    "firebase": "^3.7.2",
     "mongodb": "^1.4.39"
   }
 }

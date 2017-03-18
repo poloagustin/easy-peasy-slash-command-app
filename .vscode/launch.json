@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/index.js",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "CLIENT_ID": "2547922468.155463991888",
+                "CLIENT_SECRET": "9c841135bfe18835882c724e78238bcb",
+                "VERIFICATION_TOKEN": "HUapSCFLKbZU7CqptNwgNg1d",
+                "PORT": "8765",
+                "API_KEY": "AIzaSyA83XuF2xxA-pZhFjGYCH5rhn8dpoiDZ-E",
+                "DATABASE_URL": "https://shiftgig-ba-panadero.firebaseio.com"
+            }
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Process",
+            "port": 5858
+        }
+    ]
+}
