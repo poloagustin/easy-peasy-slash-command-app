@@ -10,7 +10,7 @@ const connector = new builder.ChatConnector({
 
 const bot = new builder.UniversalBot(connector);
 
-app.post('/', connector.listen());
+app.post('/api/messages', connector.listen());
 app.get('/', () => 'Hello World!');
 
 bot.dialog('/', require('./intents'));
