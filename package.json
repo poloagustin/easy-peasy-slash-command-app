@@ -4,7 +4,7 @@
   "description": "Who needs to buy facturas?",
   "main": "index.js",
   "scripts": {
-    "start": "index.js",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "now -e CLIENT_ID=@client_id -e CLIENT_SECRET=client_secret -e VERIFICATION_TOKEN=@verification_token -e DATABASE_URL=https://shiftgig-ba-panadero.firebaseio.com -e PORT=3000"
   },
