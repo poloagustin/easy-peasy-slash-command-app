@@ -14,7 +14,7 @@
                 "CLIENT_ID": "2547922468.155463991888",
                 "CLIENT_SECRET": "9c841135bfe18835882c724e78238bcb",
                 "VERIFICATION_TOKEN": "HUapSCFLKbZU7CqptNwgNg1d",
-                "PORT": "8765",
+                "PORT": "3000",
                 "API_KEY": "AIzaSyA83XuF2xxA-pZhFjGYCH5rhn8dpoiDZ-E",
                 "DATABASE_URL": "https://shiftgig-ba-panadero.firebaseio.com"
             }

@@ -4,9 +4,9 @@
   "description": "Who needs to buy facturas?",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "now -e CLIENT_ID=@client_id -e CLIENT_SECRET=client_secret -e VERIFICATION_TOKEN=@verification_token -e DATABASE_URL=https://shiftgig-ba-panadero.firebaseio.com -e PORT=8765"
+    "deploy": "now -e CLIENT_ID=@client_id -e CLIENT_SECRET=client_secret -e VERIFICATION_TOKEN=@verification_token -e DATABASE_URL=https://shiftgig-ba-panadero.firebaseio.com -e PORT=3000"
   },
   "repository": {
     "type": "git",
@@ -26,10 +26,8 @@
     "node": "5.1.1"
   },
   "dependencies": {
-    "botkit": "0.0.5",
-    "botkit-storage-firebase": "^1.0.0",
-    "botkit-storage-mongo": "^1.0.2",
-    "firebase": "^3.7.2",
-    "mongodb": "^1.4.39"
+    "body-parser": "^1.17.1",
+    "botbuilder": "^3.7.0",
+    "express": "^4.15.2"
   }
 }
