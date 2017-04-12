@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "now -e CLIENT_ID=@client_id -e CLIENT_SECRET=client_secret -e VERIFICATION_TOKEN=@verification_token -e DATABASE_URL=https://shiftgig-ba-panadero.firebaseio.com -e PORT=3000"
+    "deploy": "now -e MICROSOFT_APP_ID=@MICROSOFT_APP_ID -e MICROSOFT_APP_PASSWORD=MICROSOFT_APP_PASSWORD"
   },
   "repository": {
     "type": "git",
